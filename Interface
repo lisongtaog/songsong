@@ -1,0 +1,12 @@
+getUserByUsername 
+@RequestParam(value = "username", required = false) String loginName -->> @RequestBody PxSysUser pxSysUser
+
+userLoginAuth
+@RequestParam String userName, @RequestParam String password -->> @RequestBody PxSysUser pxSysUser
+
+getIscUserJsonByUsername
+@RequestParam(value = "username") String username -->> @RequestBody PxSysUser pxSysUser
+
+getUserByMemberId
+@RequestParam(value = "appId", required = false) String appId, @RequestParam(value = "memberId", required = false) String membersId -->> 
+
