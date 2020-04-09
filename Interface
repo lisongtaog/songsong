@@ -8,5 +8,5 @@ getIscUserJsonByUsername
 @RequestParam(value = "username") String username -->> @RequestBody PxSysUser pxSysUser
 
 getUserByMemberId
-@RequestParam(value = "appId", required = false) String appId, @RequestParam(value = "memberId", required = false) String membersId -->> 
+@RequestParam(value = "appId", required = false) String appId, @RequestParam(value = "memberId", required = false) String membersId -->> @RequestBody PxSysUser pxSysUser
 
